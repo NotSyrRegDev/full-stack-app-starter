@@ -1,0 +1,18 @@
+
+
+.fotter_section {
+    position: relative;
+}
+.footer_area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.footer_subheadline {
+    text-align: center;
+    color: #0a224097;
+    font-size: 18px;
+    font-family: 'Cairo';
+    font-weight: 300;
+}

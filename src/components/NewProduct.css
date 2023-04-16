@@ -1,0 +1,127 @@
+
+.single_new_product {
+    position: relative;
+    text-align: center;
+    background: #fff;
+    
+    padding-bottom: 0.3rem;
+    box-sizing: 0 12px 32px rgba(0,0,0,0.4);
+    max-width: 45vw;
+    border: 1px solid #a1a0a0a1;
+}
+
+.product_img {
+    max-height: 18rem;
+    width: 100%;
+  
+}
+
+.product_headline {
+    margin-top: 0.5rem;
+    font-size: 22px;
+    font-family: 'Cairo' , sans-serif;
+    color: #0a2240;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.product_subheadline {
+    border: 1px solid #0a2240;
+    border-radius: 5px;
+    display: inline-block;
+  
+    padding: 0.2rem 0.8rem;
+    font-size: 22px;
+    font-family: 'Cairo' , sans-serif;
+    color: #0a2240;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.product_price {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid #0a2240;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: 'Cairo' , sans-serif;
+    color: #0a2240;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.product_price_page {
+    display: inline-block;
+    padding: 0.8rem 2.2rem;
+    background: #0a2240;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 20px;
+    font-family: 'Cairo' , sans-serif;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+.product_time {
+    margin-right: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Cairo' , sans-serif;
+    color: #010101;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.product_stars {
+    margin-right: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Cairo' , sans-serif;
+    color: #ffb820;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+
+.bg_green {
+    background: #82d871 !important;
+}
+.single_menu_div_small {
+ 
+    background: #fff;
+    color: #0a2240;
+    font-size: 18px;
+    font-family: 'Changa';
+    font-weight: 300;
+    padding: 0.4rem 1.8rem;
+    border-radius: 30px;
+    
+    text-align: center;
+    
+}
+
+.new_card_postion {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.body_padding {
+    padding: 0 0.4rem;
+}
+
+@media (max-width: 550px) {
+
+    .single_menu_div_small {
+        font-size: 15px;
+        padding: 0.2rem 0.8rem;
+    }
+    .product_headline {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .product_subheadline {
+        font-size: 16px;
+    }
+
+}

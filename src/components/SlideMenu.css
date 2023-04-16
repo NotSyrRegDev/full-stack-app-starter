@@ -1,0 +1,32 @@
+
+.menu_slider {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+   
+}
+
+.single_menu_div.active {
+    background: #afe2e3;
+}
+.single_menu_div {
+    background: #fff;
+    color: #0a2240;
+    font-size: 22px;
+    font-family: 'Changa';
+    font-weight: 300;
+    padding: 0.4rem 2.2rem;
+    border-radius: 30px;
+    min-width: 20vw;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+.horential_section {
+    width: 100vw;
+    height: 20vh;
+}
+.main {
+    text-align: center;
+    max-height: 3.5rem;
+    width: 15vw;
+}

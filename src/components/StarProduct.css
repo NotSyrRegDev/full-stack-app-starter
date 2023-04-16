@@ -1,0 +1,10 @@
+
+.icon_small {
+    max-height: 1.5rem;
+}
+
+.star_postion {
+    position: absolute;
+        bottom: 2%;
+        left: 5%;
+}

@@ -1,0 +1,119 @@
+
+.iwaiter_navbar {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 15vh;
+    background: transparent;
+}
+
+.menu_icon_div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+    text-align: center;
+}
+
+.box_navbar {
+   
+    width: 35px;
+    height: 3px;
+    background: #162d4a;
+    display: block;
+    margin: 8px 0;
+}
+.logo_div {
+    max-height: 5.2rem;
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+
+}
+.logo_div img{
+    width: 5rem;
+    height: 5rem;
+   
+    border-radius: 250px;
+    background: transparent;
+}
+.search_div {
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+}
+.search_div img{
+    max-height: 2.5rem;
+    background: transparent;
+    opacity: 0.6;
+}
+
+.main_mobile_section {
+    background: #fff;
+    position: fixed;
+    top: 15%;
+    z-index: 999;
+    right: -40%;
+    width: 20%;
+    height: 100%;
+    padding: 0.5rem 2.5rem;
+    transition: all 0.7s ease-in;
+}
+.main_mobile_section.active {
+    right: 18%;
+}
+
+.mobile_ul li{
+    text-align: right;
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.mobile_ul li a{
+    color: #162d4a;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Cairo';
+}
+.mobile_ul li a.active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #162d4a;
+}
+
+@media (max-width: 400px) {
+    .logo_div {
+        max-height: 3.8rem;
+        padding: 5px;
+
+    
+    }
+    .logo_div img{
+        max-height: 3.2rem;
+    }
+    .search_div {
+
+        padding: 5px;
+
+        max-height: 2.5rem;
+    }
+    .search_div img{
+        max-height: 1.9rem;
+
+    }
+    .menu_icon_div {
+
+        padding: 10px;
+
+        max-height: 3.5rem;
+   
+    }
+    
+    .box_navbar {
+       
+        width: 35px;
+        height: 3px;
+        margin: 8px 0;
+    }
+}
